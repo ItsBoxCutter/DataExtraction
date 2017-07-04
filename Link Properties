@@ -1,0 +1,13 @@
+ 
+ 
+ 					Indeed.com
+ 
+ Sample Link 1: "https://ca.indeed.com/jobs?q=Software+Developer&l=Edmonton%2C+AB"
+ Sample Link 2: "https://ca.indeed.com/jobs?q=Software+Developer&l=Kitchener%2C+ON"
+ Sample Link 3: "https://ca.indeed.com/jobs?q=web+developer&l=Edmonton%2C+AB"
+ Sample Link 4: "https://ca.indeed.com/jobs?q=web+developer&l=Kitchener%2C+ON"
+ 
+ 
+ Empty Link Example:
+ 		{ "https://ca.indeed.com/jobs?q=JOBTITLE&1=CITY%2C+PROVENCE" }
+															
