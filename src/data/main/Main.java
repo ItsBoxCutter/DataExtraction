@@ -6,13 +6,17 @@ import data.html.HTML;
 import data.html.Link;
 
 public class Main {
-	
-	public static void main(String[] args) throws IOException{
-		for(int i = 1; i < 4; i++ ){
-			Link.getProperties(i);
-		}
+	@SuppressWarnings("unused")
+	private static String jobTitle, cityName, provinceName, page;
+
+	public static void main(String[] args) throws IOException {
+		jobTitle = Link.getProperties(1);
+		cityName = Link.getProperties(2);
+		provinceName = Link.getProperties(3);
 		
-		System.out.println(HTML.getHTML("https://stackoverflow.com/questions/218384/what-is-a-nullpointerexception-and-how-do-i-fix-it"));
+		
+		String page = HTML.getHTML(Link.createLink(jobTitle, cityName, provinceName));
+		HTML.getTag("<a", ">", page);
 	}
-	
+
 }

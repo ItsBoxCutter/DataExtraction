@@ -9,5 +9,5 @@
  
  
  Empty Link Example:
- 		{ "https://ca.indeed.com/jobs?q=JOBTITLE&1=CITY%2C+PROVINCE" }
+ 		{ "https://ca.indeed.com/jobs?q=JOBTITLE&l=CITY%2C+PROVINCE" }
 															
