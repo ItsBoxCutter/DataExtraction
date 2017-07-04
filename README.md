@@ -11,7 +11,7 @@ This data will be sent to a DB (So I can learn to integrate DB) then pulled and 
   search phrases used 
   area
   Salary (Not provided in add will be removed from and search querry that has salary specified, In cases where it is filtered 
-  "high" to "low" they will be after "low")
+  		  "high" to "low" they will be after "low")
 
 #Purpose
 The purpose of this program is to, track and store the data related to jobs in a specific area so you can track what programming 
